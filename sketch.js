@@ -86,12 +86,12 @@ function draw() {
     astronaut.velocityY = 1;
   }*/
 
-  if(keyDown("m")){
-    astronaut.addAnimation("moving", move);
-    astronaut.changeAnimation("moving");
-    astronaut.velocityX = 0;
-    astronaut.velocityY = 0;
-  }
+  //if(keyDown("m")){
+    //astronaut.addAnimation("moving", move);
+   // astronaut.changeAnimation("moving");
+   // astronaut.velocityX = 0;
+    //astronaut.velocityY = 0;
+  //}
 
  /*f(keyDown("m")){
     astronaut.changeAnimation("moving", move);
@@ -100,10 +100,10 @@ function draw() {
     astronaut.velocityY = 1;
   }*/
 
-  /*if(keyDown("m")){
+  if(keyDown("m")){
     astronaut.addAnimation("moving", move);
     astronaut.changeAnimation("moving");
     astronaut.velocityX = 1;
     astronaut.velocityY = 1;
-  }*/
+  }
 }
